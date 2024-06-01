@@ -21,13 +21,14 @@ func main() {
 
 	log.Info("starting url-shortener", slog.String("env", cfg.Env))
 	log.Debug("debug messages are enabled")
+
 	// TODO: init logger: slog
 
 	// TODO: init storage: sqlite
 
 	// TODO: init router: chi, "chi render"
 
-	// TODO: run server:
+	// TODO: run server
 }
 
 func setupLogger(env string) *slog.Logger {
